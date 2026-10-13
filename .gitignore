@@ -1,0 +1,25 @@
+# Secrets -- never commit a real key
+.env
+.env.*
+!.env.example
+*.secrets.toml
+.streamlit/secrets.toml
+
+# Exports produced by the app
+keyscope_results.*
+api_key_check_results.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
